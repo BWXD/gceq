@@ -64,7 +64,7 @@ client.login(process.env.TOKEN);
 const Discord = require("discord.js");
 var client = new Discord.Client();
 
-var room = "";
+var room = "https://discord.gg/rpxjesCRg8";
 
 // BOT ONLINE
 
