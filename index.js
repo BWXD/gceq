@@ -1,6 +1,8 @@
 const Discord = require("discord.js");
 var client = new Discord.Client();
 
+var room = "https://discord.gg/rpxjesCRg8";
+
 client.on("ready", function() {
         var dd = new Date;
         var h = dd.getUTCHours();
@@ -38,6 +40,7 @@ switch (args[0].toLowerCase()) {
                 .setTitle(message.content.split("!room "))
             client.channels.cache.get("879046204011446312").bulkDelete(20)
             client.channels.cache.get("879046204011446312").send(emb)
+            room = message.content.split("!room ");
         }
         message.delete();
     break;
