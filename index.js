@@ -55,4 +55,4 @@ switch (args[0].toLowerCase()) {
     }
 });
 
-client.login(process.env.TOKEN);
+//client.login(process.env.TOKEN);
