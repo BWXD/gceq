@@ -125,4 +125,4 @@ switch (args[0].toLowerCase()) {
     }
 });
 
-client.login("ODc2NTc1NTQ5Nzc3MTQ5OTcy.YRmEmQ.W-6aifH2tArH23USSgtdvdfaoRE");
+client.login(process.env.TOKEN);
